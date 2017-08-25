@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+    <list>
+        <auto id="as">
+            <year>2000</year>
+            <brand>vfzda</brand>
+            <color>blue</color>
+        </auto>
+        <auto id="fd">
+            <year>2001</year>
+            <brand>audi</brand>
+            <color>red</color>
+        </auto>
+        <auto id="gb">
+            <year>2002</year>
+            <brand>samara</brand>
+            <color>black</color>
+        </auto>
+        <auto id="4f">
+            <year>2003</year>
+            <brand>bmw</brand>
+            <color>blue</color>
+        </auto>
+        <auto id="66">
+            <year>2010</year>
+            <brand>ford</brand>
+            <color>red</color>
+        </auto>
+        <auto id="gc">
+            <year>1995</year>
+            <brand>mercedes</brand>
+            <color>green</color>
+        </auto>
+    </list>
+</root>
