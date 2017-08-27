@@ -40,4 +40,14 @@ public class Car {
     public void setBrand(String brand) {
         this.brand = brand;
     }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "id='" + id + '\'' +
+                ", year=" + year +
+                ", color='" + color + '\'' +
+                ", brand='" + brand + '\'' +
+                '}';
+    }
 }

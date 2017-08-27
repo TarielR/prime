@@ -1,13 +1,6 @@
 package pro.tariel;
 
-import org.xml.sax.Attributes;
-import org.xml.sax.SAXException;
-import org.xml.sax.helpers.DefaultHandler;
-
 import javax.inject.Named;
-import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.parsers.SAXParser;
-import javax.xml.parsers.SAXParserFactory;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
@@ -16,19 +9,16 @@ import java.util.List;
 @Named(value = "auto")
 public class AutoBean implements Serializable {
     private List<Car> list;
-    private Car car;
     private String title = "Машинки";
-
-
 
     public AutoBean() {
         list = new ArrayList<>();
         init();
-
     }
 
     private void init() {
-        car = new Car();
+        Car car = new Car();
+
         car.setId("aa");
         car.setYear(1999);
         car.setBrand("Audi");

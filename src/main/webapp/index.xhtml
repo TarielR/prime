@@ -10,14 +10,13 @@
 
 <h:head>
     <h:outputStylesheet library="css" name="style.css"/>
-    <script type="text/javascript" src="jquery-3.2.1.js"></script>
+    <h:outputScript library="scripts" name="jquery-3.2.1.min.js" />
     <title>Машинки</title>
 </h:head>
 
 <h:body>
     <p:panel header="Список товаров" class="header">
         <br/>
-
 
         <p:dataTable value="#{auto.list}" var="car">
             <p:column headerText="Id">
@@ -29,12 +28,15 @@
             <p:column headerText="Марка">
                 <h:outputText value="#{car.brand}"/>
             </p:column>
-            <p:column headerText="Цвет">
+            <p:column headerText="Цвет" class="color">
                 <h:outputText value="#{car.color}"/>
             </p:column>
         </p:dataTable>
     </p:panel>
 
+    <h:outputScript library="scripts" name="script.js" />
+
 </h:body>
 
 </html>
+
